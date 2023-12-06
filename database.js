@@ -5,7 +5,7 @@ const pool = mysql
     connectionLimit: 10,
     host: "34.101.212.167",
     user: "root",
-    password: "password",
+    password: "", //password deleted
     database: "Books",
   })
   .promise();
